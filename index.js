@@ -22,7 +22,7 @@ ShowList.addEventListener('click', ListDisplay);
 ContactInfo.addEventListener('click', Getinfo);
 
 const displayTime = () => {
-  const Date  = DateTime.now();
+  const Date = DateTime.now();
   const date = Date.toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
   document.querySelector('#timer-p').innerHTML = date;
 };
