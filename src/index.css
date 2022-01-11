@@ -87,7 +87,7 @@ a:hover {
   display: block;
   color: rgb(248, 244, 244);
   position: fixed;
-  right: -60%;
+  right: -80%;
   left: 0;
   z-index: 5;
 }

@@ -1,4 +1,5 @@
 import './index.css';
+import { DateTime } from 'luxon';
 import ObjectBook from './script.js';
 import { ListDisplay, NewBook, Getinfo } from './navbar.js';
 
@@ -12,7 +13,6 @@ const Store = new ObjectBook(inputTitle, inputAuthor);
 Store.booksList = JSON.parse(localStorage.getItem('storageFormData')) || [];
 Store.createElement(Store.booksList);
 Store.addBook();
-// Store.Clock();
 window.addEventListener('load', () => {
   Store.onPageLoad();
 });
@@ -22,7 +22,8 @@ ShowList.addEventListener('click', ListDisplay);
 ContactInfo.addEventListener('click', Getinfo);
 
 const displayTime = () => {
-  const date = new Date();
+  const Date  = DateTime.now();
+  const date = Date.toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
   document.querySelector('#timer-p').innerHTML = date;
 };
 document.addEventListener('DOMContentLoaded', () => {
