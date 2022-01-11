@@ -9,7 +9,7 @@ body {
   text-align: center;
   justify-content: center;
   padding: 30px;
-  background-image: url('/img/book2.jpeg');
+  background-color: #000;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -36,7 +36,7 @@ a {
 }
 
 a:hover {
-  color: rgb(147, 156, 126);
+  color: rgb(82, 109, 19);
 }
 
 .a-link {
@@ -85,9 +85,9 @@ a:hover {
 
 #timer-p {
   display: block;
-  color: #fff;
+  color: rgb(240, 60, 60);
   position: fixed;
-  right: -65%;
+  right: -60%;
   left: 0;
   z-index: 5;
 }
@@ -123,7 +123,7 @@ a:hover {
 
 h2,
 h4 {
-  color: rgb(238, 234, 229);
+  color: rgb(65, 138, 6);
   font-size: 38px;
   text-align: center;
   justify-content: center;
@@ -134,7 +134,7 @@ h4 {
 input {
   font-size: 20px;
   padding: 0 0.25rem;
-  border: 3px solid #000;
+  border: 3px solid rgb(100, 97, 97);
 }
 
 input::placeholder {
@@ -146,8 +146,8 @@ input::placeholder {
 .add--btn {
   font-size: 22px;
   padding: 0 0.25rem;
-  border: 2px solid #000;
-  box-shadow: 2px 2px 5px 3px #000;
+  border: 2px solid rgb(77, 73, 73);
+  box-shadow: 2px 2px 5px 3px rgb(100, 98, 98);
   font-weight: bold;
   text-align: end;
   transform: translateX(5.1rem);
@@ -173,6 +173,7 @@ input::placeholder {
 }
 
 .contact-section h3 {
+  color: rgb(65, 138, 6);
   font-size: 34px;
   font-weight: 700;
   margin: 40px;
