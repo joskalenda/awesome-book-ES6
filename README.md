@@ -30,7 +30,7 @@ To get a local copy up and running follow these simple example steps.
 
 To clone this repo: You need to have git installed in your system.
 
-git clone the repo in your terminal by: "git clone https://github.com/joskalenda/awesome_books.git"
+git clone the repo in your terminal by: "git clone https://github.com/joskalenda/awesome-book-ES6.git"
 
 cd into the folder
 
@@ -39,7 +39,7 @@ cd into the folder
 
 ## Live demo
 
-- [See demo](https://)
+- [See demo](https://nervous-lumiere-c1daf6.netlify.app)
 ## Authors
 
 👤 **Jos Kalenda**
@@ -52,7 +52,7 @@ cd into the folder
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/joskalenda/awesome_books/issues).
+Feel free to check the [issues page](https://github.com/joskalenda/awesome-book-ES6/issues).
 
 ## Show your support
 
