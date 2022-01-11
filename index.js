@@ -1,7 +1,7 @@
-import './index.css';
+import './src/module/index.css';
 import { DateTime } from 'luxon';
-import ObjectBook from './script.js';
-import { ListDisplay, NewBook, Getinfo } from './navbar.js';
+import ObjectBook from './src/module/script.js';
+import { ListDisplay, NewBook, Getinfo } from './src/module/navbar.js';
 
 const ShowList = document.querySelector('#list-link');
 const AddNew = document.querySelector('#addlink');
