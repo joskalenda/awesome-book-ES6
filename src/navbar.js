@@ -11,7 +11,6 @@ export function ListDisplay() {
 }
 
 export function NewBook() {
-  console.log('it has displayed');
   AddSection.style.display = 'block';
   Contact.style.display = 'none';
   BookSection.style.display = 'none';

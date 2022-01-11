@@ -1,8 +1,6 @@
 import './index.css';
-import { ObjectBook } from "./script";
-import { ListDisplay } from "./navbar.js";
-import { NewBook } from "./navbar.js";
-import { Getinfo } from "./navbar.js";
+import ObjectBook from './script.js';
+import { ListDisplay, NewBook, Getinfo } from './navbar.js';
 
 const ShowList = document.querySelector('#list-link');
 const AddNew = document.querySelector('#addlink');

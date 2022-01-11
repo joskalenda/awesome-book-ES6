@@ -1,6 +1,6 @@
 const Container = document.querySelector('.container');
 const addBtn = document.querySelector('#btn');
-export class ObjectBook {
+export default class ObjectBook {
   constructor(title, author) {
     this.title = title;
     this.author = author;
