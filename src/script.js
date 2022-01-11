@@ -1,9 +1,6 @@
 const Container = document.querySelector('.container');
-const inputTitle = document.querySelector('#title-id');
-const inputAuthor = document.querySelector('#author-id');
 const addBtn = document.querySelector('#btn');
-
-class ObjectBook {
+export class ObjectBook {
   constructor(title, author) {
     this.title = title;
     this.author = author;
@@ -56,14 +53,6 @@ class ObjectBook {
     });
   }
 
-  Clock() {
-    window.addEventListener('load', () => {
-      const DateTime = new Date();
-      this.time = DateTime;
-      document.querySelector('#timer-p').innerHTML = `Date and time: ${DateTime.toLocaleString()}`;
-    });
-  }
-
   onPageLoad() {
     if (this.booksList.length === 0) {
       if (JSON.parse(localStorage.getItem('storageFormData'))) {
@@ -73,11 +62,3 @@ class ObjectBook {
     }
   }
 }
-const Store = new ObjectBook(inputTitle, inputAuthor);
-Store.booksList = JSON.parse(localStorage.getItem('storageFormData')) || [];
-Store.createElement(Store.booksList);
-Store.addBook();
-Store.Clock();
-window.addEventListener('load', () => {
-  Store.onPageLoad();
-});
